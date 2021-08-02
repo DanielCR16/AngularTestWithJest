@@ -1,0 +1,13 @@
+.content-footer{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    height: 5%;
+    text-align: center;
+}
+
+.text-footer {
+    margin: 0px;
+    padding: 12px;
+    font-size: 20px;
+}

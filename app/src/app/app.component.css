@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container-ppal{
+  height: 100%;
+}
+
+.container-base{
+  height: 85%;
+}
