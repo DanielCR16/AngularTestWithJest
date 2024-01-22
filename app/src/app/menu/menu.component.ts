@@ -7,13 +7,13 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 })
 export class MenuComponent{
 
-  @Input() mensaje: any;
-  @Output() mensajeEvento = new EventEmitter();
+  // @Input() mensaje: any;
+  // @Output() mensajeEvento = new EventEmitter();
 
-  public mensajeParaPadre:string='Comunicacion de hijo a padre';
+  // public mensajeParaPadre:string='Comunicacion de hijo a padre';
 
-  public enviarRespuesta(){
-    this.mensajeEvento.emit(this.mensajeParaPadre);
-  }
+  // public enviarRespuesta(){
+  //   this.mensajeEvento.emit(this.mensajeParaPadre);
+  // }
 
 }

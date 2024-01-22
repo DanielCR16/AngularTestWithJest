@@ -1,0 +1,10 @@
+<h5>Hijo</h5>
+<code>{{client |json}}</code>
+<br><br>
+
+<button  data-test="btn-update" *ngIf="client" (click)="onChange(10)" class="btn btn-outline-primary">
+  Cambiar ID
+</button>
+<button data-test="btn-delete" *ngIf="client" (click)="onDelete()" class="btn btn-outline-danger">
+ Borrar Cliente
+</button>

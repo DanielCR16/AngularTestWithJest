@@ -1,9 +1,13 @@
-<div class="container-ppal" fxLayout="column" fxFlexFill>
-    <app-menu  [mensaje]="mensajeParaHijo" (mensajeEvento)="receiveMessage($event)"></app-menu>
-    <div class="container-base" fxFlex>
-        <router-outlet></router-outlet>
-        <h1>Mensaje entre componentes</h1>
-        <h2>{{ mensajeDesdeHijo }}</h2>
-    </div>
-    <app-footer></app-footer>
+<!-- <div class="container-ppal" fxLayout="column" fxFlexFill>
+  <app-menu  [mensaje]="mensajeParaHijo" (mensajeEvento)="receiveMessage($event)"></app-menu>
+  <div class="container-base" fxFlex>
+      <router-outlet></router-outlet>
+      <h1>Mensaje entre componentes</h1>
+      <h2>{{ mensajeDesdeHijo }}</h2>
+  </div>
+  <app-footer></app-footer>
+</div> -->
+<div class="container">
+  <router-outlet></router-outlet>
 </div>
+

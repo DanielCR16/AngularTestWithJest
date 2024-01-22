@@ -1,0 +1,9 @@
+<h1>Padre</h1>
+<Button class="btn btn-primary" (click)="onSetClient('Daniel')">Cargar Cliente</Button>
+
+<br><br>
+
+<code class="mt-2">{{client | json}}</code>
+
+<hr>
+<app-father-son [client]="client" (onClientUpdating)="client=$event" (onDeleteClient)="client=undefined"></app-father-son>
